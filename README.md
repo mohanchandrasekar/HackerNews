@@ -9,3 +9,4 @@ Home screen with list of top items displayed in order (https://hacker-news.fireb
 
 Item screen with list of comments (e.g. https://hacker-news.firebaseio.com/v0/item/2921983.json) and their replies. You can simplify to display only 1 level of reply.
 
+![hackernews](https://user-images.githubusercontent.com/6574031/76144080-076d3f00-607d-11ea-96ab-101602d32f10.png)
