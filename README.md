@@ -2,7 +2,7 @@
 
 HackerNews application is created using Kotlin and coroutine with Koin framework
 
-HackerNewsReader Application using Android jetpack (Kotlin , Koin ,MVVM and Andoridx)
+HackerNewsReader Application using Android jetpack (Kotlin , Koin , MVVM and kotlin coroutine)
 Created HackerNews application which is implemeted following features,
 
 Home screen with list of top items displayed in order (https://hacker-news.firebaseio.com/v0/topstories.json), and can be pulled to refresh.
