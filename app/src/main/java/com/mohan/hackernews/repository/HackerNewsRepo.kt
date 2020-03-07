@@ -3,7 +3,7 @@ package com.mohan.hackernews.repository
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class HackerNewsRepo {
+object HackerNewsRepo {
     private var hackerNewsService: HackerNewsService? = null
 
     private val HTTPS_API = "https://hacker-news.firebaseio.com"

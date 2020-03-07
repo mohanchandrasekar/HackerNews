@@ -12,17 +12,17 @@ interface HackerNewsService {
      * Return a list of the latest post IDs.
      */
     @GET("/v0/topstories.json")
-    fun getTopStories(): Deferred<List<Long>>
+    fun getTopStories(): Call<List<Long>>
 
     /**
      * Return story item.
      */
     @GET("/v0/item/{itemId}.json")
-    fun getStoryItem(@Path("itemId") itemId: String?): Call<Story>
+    fun getStoryItem(@Path("itemId") itemId: Long?): Call<Story>
 
     /**
      * Returns a comment item.
      */
     @GET("/v0/item/{itemId}.json")
-    fun getCommentItem(@Path("itemId") itemId: String?): Call<Comments>
+    fun getCommentItem(@Path("itemId") itemId: Long?): Call<Comments>
 }
